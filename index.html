@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Lord of the Rings Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box">
+        <div id="begin">Begin!</div>
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="answers">
+                <div class="answer" id="A" onclick="checkAnswer('A')"></div>
+                <div class="answer" id="B" onclick="checkAnswer('B')"></div>
+                <div class="answer" id="C" onclick="checkAnswer('C')"></div>
+            </div>
+            <div id="clock">
+                <div id="counter"></div>
+                <div id="btimeBox"></div>
+                <div id="timeBox"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreBox" style="display: none"></div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
